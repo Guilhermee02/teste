@@ -3,7 +3,7 @@ local Window = Library.CreateLib("AutoPianoV1 askvoyz", "BloodTheme")
 
 local Tab = Window:NewTab("Auto Piano")
 local Section = Tab:NewSection("Auto Piano")
-Section:NewButton("horror", "Autoplayf", function()
+Section:NewButton("horror2", "Autoplayf", function()
     -- Sheet for Rondo Alla Turca by Wolfgang Amadeus Mozart
 
 shared.stop = true -- stops the player at any time if true
@@ -12,27 +12,22 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
 
-shared.scr = [[ 3 3 6|6|0|0 0
-(|(|7||6|6|8|8 8
-9|^|^||0|0 0| 0|
-4|4 4||6| 6 6|6|
-@|@|@||0|6 6 0|
-6 0|9|8|7|6|||
-3|3|6||6|0||0|0|
-(||(||7||7|7|6||6||8||8|8|
-9||^||%|||0||0|0||3||4||4||4|||
-6||6|6||6||@||@||@|||
-0|6 6 0| 6 0|9|8|7|6|||
-6 6|6 6| 0|9|8|7|6|||
-6 6| 7|7|q|q q
-0|0|8||7|7|9|9 9
-(|7|7||q|q|q|q|5 5 5||
-7| 7 7|7|3|3|3||q|7 7 q|
-7 q|0|9|8|7|||
-7 7 7|7|q|q q 0 0 0|8||
-7|7|9|9|0|8|8||q|q|q|q|
-5|5|5||7|7|7|7|q|q|q||Q|
-7 7 Q| 7 Q|0|9|*|7 ]]
+shared.scr = [[ [6u] u [6u]|[6u] u [6u]|
+[6u] o [6t] y [6u]|6|
+[9i] i [9i] i [8i] u [8u]uu
+[7y] y [7u] i [0O]|p a
+[60s] a [60p] a [59s] a [59p] s
+[48d] s [48a] s [37O]|[37p] a
+[60s] a [60p] a [59s] a [59p] s
+[48d] s [48a] s [37f]|[37] u
+[60p] a [60s] a [59s] d [59f] s
+[48g] f [48d] s [37a]|[37p] a
+[60s] a [60p] a [59s] a [59p] s
+[48d] s [48a] s [37O]|[37]|
+[60f] f s 3 [60p] p u 3
+[60f] d s [3a] [60p]| 3
+[9eg] g g [9eg] [8wg] f f [8wf]
+[70f] d d [70f] [37H] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 end)
