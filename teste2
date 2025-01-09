@@ -115,6 +115,31 @@ p [ep]—- [6j] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Casamento", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ ssss| ssss|
+sssf ffff fffh hhhh h l|
+k|Gj h g d s asd odf tuosfhl|
+k|Gj h g d s| f dfd| s|
+tuos| tuos| uosf| uosf osfh osfh sfhl|
+k|Gj h g d s asd odf tuosfhl|
+k|Gj h g d s| f dfd| s| s|
+s|sf d a o o|ss|ff d a o
+o|ff|hh| g f d Sfd psa h j k l|
+k|Gj h g d s asd odf tuosfhl|
+k|Gj h g d s| f dfd| s| l|
+k|Gj h g d s asd odf tuosfhl|
+k|Gj h g d s| f dfd| s s ]]
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("Golden Hour", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
