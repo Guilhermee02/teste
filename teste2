@@ -35,14 +35,81 @@ o a o i||
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 end)
-Section:NewButton("fnaf", "Auto", function()
+Section:NewButton("fnaff", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ [@5w]tY @-[5(]- [2y]-t[59y]-t[5y]-t[57]- 1-[@5w]tY @-[5(]- [2y]-t[59y]-t[5y]-t[57]- %-[8(Y]-[5y]-[79t]- [1w]-[8(Y]-[4Y]-[%8y]- %-[(8y]-[5Y]-[79i]- [@Y]-[(8t]-[i]-[9wo]- 1-[(5wo][ts][YD]1@-[5(]-@ [2yd]-[ts][59yd]-[2ts][5yd]-[ts][57]-7 1-[(5wo][ts][YD]1@-[5(]-@ [2yd]-[ts][59yd]-[2ts][5yd]-[ts][57]-7 %-[8(YD]-%[5yd]-[79ts]-5 [18wo]-[8(YD]-5[4YD]-[%8yd]- %-[(8yd]-%[5YD]-[79ig]-5 [@YD]-[(8ts]-[ig]-[9woh]- [158]-[158Y]-[48qy]-[48qt]- [%(W]-[%(WY]-[59wyd] D [59wyd] d [158] s [158Y]-[48qy]-[48qt]- [%(W]-[%(WY]-[59wyd] D [59wyd] d [158] s [158YD]-[48qyd]-[48qts]- [%(WO]-[%(WYD]-[59wyd] D [59wyd] d [158] s [158YD]-[48qyd]-[48qts]- [%(WO]-[%(WYD]-[59wyd] D [59wyd] d 1-[5(D]-[1D][@d]-[5(]-[@o] [2P]-[59P]-[2o][5s]-[57o]-7 1-[5(D]-[1D][@d]-[5(]-[@o] [2P]-[59P]-[2o][5s]-[57o]-^ %-o-%[5o]-o-5 [18o]-i-Y[4i]-Y- %-o-%[5o]-o- [@o]-i-Y[i]-Y- 1-[(5wo][ts][YD]1@-[5(]-@ [2yd]-[ts][59yd]-[2ts][5yd]-[ts][57]-7 1-[(5wo][ts][YD]1@-[5(]-@ [2yd]-[ts][59yd]-[2ts][5yd]-[ts][57]-7 %-[8(YD]-%[5yd]-[79ts]-5 [18wo]-[8(YD]-5[4YD]-[%8yd]- %-[(8yd]-%[5YD]-[79ig]-5 [@YD]-[(8ts]-[ig]-[9woh]- [158]-[158Y]-[48qy]-[48qt]- [%(W]-[%(WY]-[59wyd] D [59wyd] d [158] s [158Y]-[48qy]-[48qt]- [%(W]-[%(WY]-[59wyd] D [59wyd] d [158] s [158YD]-[48qyd]-[48qts]- [%(WO]-[%(WYD]-[59wyd] D [59wyd] d [158] s [158YD]-[48qyd]-[48qts]- [%(WO]-[%(WYD]-[59wyd] D [59wyd] d 1-s-@-- 2--5-- 1-[YD] [YD] @ [yd]-[yd] 2-[ts] [yd] 5-[ts] [ts] %-[wo] [ts] 5-[Yts] [Yts] 1-[w(Y] [Wqi] 4 [w(Y]-[w(Y] %-[(8t] [(8t] 5-[7r] [8t] 1 ]]
+shared.scr = [[ [6f]-8 d [7f]-3 d
+[6d]-8 s [7d]-3 s
+[6s]-8 a [7p]-3 a
+[6s]-8 d [7a]-[3O]-
+[ep]ffffff [wd]-o-s
+tsd f sd[ys]p–sf
+i g f sd[yO] f g fd
+e s–y–
+sh 6 f d sh5 f d sj
+* h [*g]fsg9 fs-sf
+q g f sd0 f g fd
+6 s—-
+66 6fffff d5 o-os
+8sd f sd[7s]p–sf
+6 g f sd7ddfg fd
+8 s–7–
+sh 6 f d sh5 f d sj
+* h gfsg9 fs-sf
+4 g f sd3 f g fd
+6 s–
+9– p [6s]-d a 7–p
+[8s] p Pp S* P P po
+9 i-iiuq i u ty
+6 t–7–
+p [6s]-d a 7–p
+[8s] p Pp S* P P po
+9 i-iiuq i u ty
+6 t–6 o o-
+[6p]sfp[8s]fpO[5o]ago[7a]gda
+[8s]fhs[0f]hds[9a]dha[0j]hgf
+[6p]sfp[8s]fpO[5o]ago[7a]gda
+[8s]fhs[0f]hds[9a]dha[%f]dsa
+[6p]sfp[8s]fpO[5o]ago[7a]gda
+[8s]fhs[0f]hds[9a]dhf[0l]kjf
+[6p]sfp[8s]fpO[5o]ago[7a]gda
+[8s]fhs[$f]hds[4a]-u-
+[ep]ffffffdw o-os
+tsd f sd[ys]p–sf
+i g f sdO f g fd
+e s–y–
+sh 6 f d sh5 f d sj
+* h [*g]fsg9 fs-sf
+q g f sd0 f g fd
+6 s–
+666 6 6fffff d5 o-os
+8sd f sd[7s]p–sf
+6 g f sd7ddfg fd
+8 s–7–
+sh 6 f d sh5 f d sj
+* h gfsg9 fs-sf
+4 g f sd3 f g fd
+6 s–9-
+66[6p]6 [6s]-d a 7–p
+[8s] p Pp S* P P po
+9 i-iiuq i u ty
+6 t–7–
+p [6s]-d a 7–p
+[8s] p Pp S* P P po
+9 i-iiuq i u ty
+6 t–9–
+[6e] t u [6e] t u–
+[^E] t u [^E] t o 8-
+[4i] p s i [%O] d–
+[5u] o s u [%y] t
+[6e] t u [6e] t u–
+[^E] t u [^E] t o 8-
+[4i] p s i [%O] d–
+[5o]po i u y t r t ]]
  
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
