@@ -42,8 +42,45 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ [@5w]tY @-[5(]- [2y]-t[59y]-t[5y]-t[57]- 1-[@5w]tY @-[5(]- [2y]-t[59y]-t[5y]-t[57]- %-[8(Y]-[5y]-[79t]- [1w]-[8(Y]-[4Y]-[%8y]- %-[(8y]-[5Y]-[79i]- [@Y]-[(8t]-[i]-[9wo]- 1-[(5wo][ts][YD]1@-[5(]-@ [2yd]-[ts][59yd]-[2ts][5yd]-[ts][57]-7 1-[(5wo][ts][YD]1@-[5(]-@ [2yd]-[ts][59yd]-[2ts][5yd]-[ts][57]-7 %-[8(YD]-%[5yd]-[79ts]-5 [18wo]-[8(YD]-5[4YD]-[%8yd]- %-[(8yd]-%[5YD]-[79ig]-5 [@YD]-[(8ts]-[ig]-[9woh]- [158]-[158Y]-[48qy]-[48qt]- [%(W]-[%(WY]-[59wyd] D [59wyd] d [158] s [158Y]-[48qy]-[48qt]- [%(W]-[%(WY]-[59wyd] D [59wyd] d [158] s [158YD]-[48qyd]-[48qts]- [%(WO]-[%(WYD]-[59wyd] D [59wyd] d [158] s [158YD]-[48qyd]-[48qts]- [%(WO]-[%(WYD]-[59wyd] D [59wyd] d 1-[5(D]-[1D][@d]-[5(]-[@o] [2P]-[59P]-[2o][5s]-[57o]-7 1-[5(D]-[1D][@d]-[5(]-[@o] [2P]-[59P]-[2o][5s]-[57o]-^ %-o-%[5o]-o-5 [18o]-i-Y[4i]-Y- %-o-%[5o]-o- [@o]-i-Y[i]-Y- 1-[(5wo][ts][YD]1@-[5(]-@ [2yd]-[ts][59yd]-[2ts][5yd]-[ts][57]-7 1-[(5wo][ts][YD]1@-[5(]-@ [2yd]-[ts][59yd]-[2ts][5yd]-[ts][57]-7 %-[8(YD]-%[5yd]-[79ts]-5 [18wo]-[8(YD]-5[4YD]-[%8yd]- %-[(8yd]-%[5YD]-[79ig]-5 [@YD]-[(8ts]-[ig]-[9woh]- [158]-[158Y]-[48qy]-[48qt]- [%(W]-[%(WY]-[59wyd] D [59wyd] d [158] s [158Y]-[48qy]-[48qt]- [%(W]-[%(WY]-[59wyd] D [59wyd] d [158] s [158YD]-[48qyd]-[48qts]- [%(WO]-[%(WYD]-[59wyd] D [59wyd] d [158] s [158YD]-[48qyd]-[48qts]- [%(WO]-[%(WYD]-[59wyd] D [59wyd] d 1-s-@-- 2--5-- 1-[YD] [YD] @ [yd]-[yd] 2-[ts] [yd] 5-[ts] [ts] %-[wo] [ts] 5-[Yts] [Yts] 1-[w(Y] [Wqi] 4 [w(Y]-[w(Y] %-[(8t] [(8t] 5-[7r] [8t] 1 ]]
- 
+shared.scr = [[ osD
+dsdsds
+osD
+dsdsds
+DdsoDDd
+dDgDsgh
+[ho] [sl] [DZ]
+[dz][sl][dz][sl][dz][sl]
+[oh][sl][DZ]
+[dz][sl][dz][sl][dz][sl]
+[DZ] [dz][sl][oh][DZ][DZ][dz]
+[dz][DZ][gc][DZ][sl][gc][hv]
+ DdsOD
+zZzzl
+DdsOD
+zZzzl
+DdsOD
+zZzz
+ZZz
+hJJhlh
+ZZz
+hJJhlh
+hhhhgDgD
+hhhhgDgD
+[oh][sl][DZ]
+[dz][sl][dz][sl][dz][sl]
+[oh][sl][DZ]
+[dz][sl][dz][sl][dz][sl]
+[DZ][dz][sl][oh][DZ][DZ][dz]
+[dz][DZ][gc][DZ][sl][gc][hv]
+DdsOD
+zZzzl
+DdsOD
+zZzzl 
+DdsOD
+zZzzl
+DdsOD
+zZzzl ]]
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
