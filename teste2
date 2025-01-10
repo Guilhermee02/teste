@@ -4558,84 +4558,21 @@ shared.ftime = 2*60 + 20 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = 100 -- tempo overides the delay
 
-shared.scr = [[ [SQP*$] [sWD(%]       %   [W(%]       % [sWD(%] [qg^SE]       ^ 
- [q^HE]       G    [g^]       D [SQP*$] [sWD(%]       %   [W(%] 
-      %   [q84]   [q^E]       O       P       S       S [SQP*$] 
-[sWD(%]       %   [W(%]       % [sWD(%] [qg^SE]       ^  [q^HE] 
-      G    [g^]       D [SQP*$] [sWD(%]       %   [W(%]       % 
-[sqO84]       S    [SP]   [q^E]       S       S       S    [Q$] 
-  [QP$]       s   [SQ$]       S   [QD$]   [sW%]    [W%]       O 
-   [W%]    [W%]    [W%]    [Q$]       P   [QP$]       s   [SQ$] 
-      P    [Q$]       O  [WOH%]    [OH] [YWD(%]    [Q$]       P 
-  [QP$]       s   [SQ$]       P   [SQ$]   [WD%]    [W%]    [sO] 
-      P   [WO%]    [W%]    [W%]    [Q$]       P   [QP$]       s 
-   [S(]       P       O  [sWD%]    [sD]    [sD]    [sg]    [sD] 
-      W   [SQP]       $       Q       $       Q    [D$]    [gQ] 
-   [S%]    [WD]    [D%]    [WD]    [g%]    [WD]       %    [WO] 
-      %       Q       $       Q       $   [YPI]   [sI(]   [YSI] 
-  [PI(]    [W%]    [sD]    [sg] [sWD(%]       O       P       S 
-      P [gTSQE] [gTSQE] [tsYWD]       O       P       S       P 
-[tsqWD] [tsqWD] [iTSPE]       O       P       S       P [SQPE(] 
-   [D(] [tsWO(]  [tWO(]       O   [tiD] [qiTSPE]       O       P 
-      S       P [gTSQE] [gTSQE] [tsYWD]       O       P       S 
-      P [tqWHD]    [sq] [iTSPE]       O       P       S       P 
-[SQPE(]    [D(] [tsWO(]  [tWO(]       O [tsiOD] [qiTSPE]    [qE] 
-   [@(]       S   [S@(]       P   [S@(]       D    [@(]    [q4] 
-   [q4]       P       P   [qO4]    [q4]    [q4]    [@(]       P 
-  [P@(]       s   [S@(]       P   [O@(]    [q4]    [OH]    [OH] 
-[qYD84]    [ig]    [YD]    [TS]    [@(]       S   [S@(]       P 
-  [S@(]       P   [S@(]   [qD4]    [q4]       P       P   [qO4] 
-   [q4]    [q4]    [@(]       P   [P@(]       s    [S8]       P 
-      O    [q4]    [sD]    [sg]    [sg]   [sqD]   [SQP]       $ 
-      Q       $       Q    [D$]    [gQ]    [S%]    [WD]    [D%] 
-   [WD]    [g%]    [WD]       %    [WO]       %       Q       $ 
-      Q       $   [YPI]   [sI(]   [YSI]   [PI(]    [W%]    [sD] 
-   [sg] [sWD(%]       O       P       S       P [gTSQE] [gTSQE] 
-[tsYWD]       O       P       S       P [tsqWD] [tsqWD] [iTSPE] 
-      O       P       S       P [SQPE(]    [D(] [tsWO(]  [tWO(] 
-      O   [tiD] [qiTSPE]       O       P       S       P [gTSQE] 
-[gTSQE] [tsYWD]       O       P       S       P [tqWHD]    [sq] 
-[iTSPE]       O       P       S       P [SQPE(]    [D(] [tsWO(] 
- [tWO(]       O [tsiOD] [qiTSPE]       O       P       S       P 
-[gTSQE] [gTSQE] [tsYWD]       O       P       S       P [tsqWD] 
-[tsqWD] [iTSPE]       O       P       S       P [SQPE(]    [D(] 
-[tsWO(]  [tWO(]       O   [tiD] [qiTSPE]       O       P       S 
-      P [gTSQE] [gTSQE] [tsYWD]       O       P       S       P 
-[tqWHD]    [sq] [iTSPE]       O       P       S       P [SQPE(] 
-   [D(] [tsWO(]  [tWO(]       O [tsiOD] [qiTSPE]       ^       ! 
-   [O4]       !       @       4       $       4       !       @ 
-      4       $       %  [i^TO]       %  [i^TO]       !  [tYO1] 
-      o       ^       !    [O4]       !       @       4       $ 
-      4       !       @       4       $       %  [i^TO]       % 
- [i^TO]       !  [tYO1]       o       ^       !    [O4]    [O!] 
-   [P@]    [S4]    [P$]    [g4]    [O!]       P    [S@]    [P4] 
-      g       $       %  [i^TO]       %  [i^TO]       !  [tYO1] 
-      o       ^       !    [O4]    [O!]    [P@]    [S4]    [P$] 
-   [g4]    [O!]       P    [S@]    [P4]       g       $       % 
- [i^TO]       %  [i^TO]       !  [tYO1]       ^       !       @ 
-      S   [SE(]       P    [S@]       D    [E(]       4       P 
-  [tqP]       O       4    [tq]       @       P   [PE(]       s 
-   [S@]       P   [OE(]    [q4]    [OH]    [OH] [qYD84]    [ig] 
-   [YD]    [TS]       @       S   [SE(]       P    [S@]       P 
-  [SE(]       D       4       P   [tqP]       O       4    [tq] 
-      @       P   [PE(]       s    [S@]       P   [OE(]    [q4] 
-   [sD]    [sg]    [sg]   [sqD]   [SQP]       $       Q       $ 
-      Q    [D$]    [gQ]    [S%]    [WD]    [D%]    [WD]    [g%] 
-   [WD]       %    [WO]       %       Q       $       Q       $ 
-  [YPI]   [sI(]   [YSI]   [PI(]    [W%]    [sD]    [sg] [sWD(%] 
-      O       P       S       P [gTSQE] [gTSQE] [tsYWD]       O 
-      P       S       P [tsqWD] [tsqWD] [iTSPE]       O       P 
-      S       P [SQPE(]    [D(] [tsWO(]  [tWO(]       O   [tiD] 
-[qiTSPE]       O       P       S       P [gTSQE] [gTSQE] [tsYWD] 
-      O       P       S       P [tqWHD]    [sq] [iTSPE]       O 
-      P       S       P [SQPE(]    [D(] [tsWO(]  [tWO(]       O 
-[tsiOD] [qiTSPE]       O       P       S       P [gTSQE] [gTSQE] 
-[tsYWD]       O       P       S       P [tsqWD] [tsqWD] [iTSPE] 
-      O       P       S       P [SQPE(]    [D(] [tsWO(]  [tWO(] 
-      O   [tiD] [qiTSPE]       O       P       S       P [gTSQE] 
-[gTSQE] [tsYWD]       O       P       S       P [tqWHD]    [sq] 
-[iTSPE]       O       P       S       P [SQPE(]    [D(] [tsWO(] 
- [tWO(]       O [tsiOD] [qiTSPE]  ]]
+shared.scr = [[ 
+      i       o       O       i       s       s       P       Y 
+      i       o       Y       P       P       O       o       i 
+      i       o       O       i       O       P       o       i 
+      Y       Y       P       O       i       o       O       i 
+      s       s       P       Y       Y       Y       Y       D 
+      o       O       o       i       i       o       O       i 
+      O       P       o       i       Y       Y       P       O 
+      i       o       O       i       s       s       P       Y 
+      i       o       Y       P       P       O       o       i 
+      i       o       O       i       O       P       o       i 
+      Y       Y       P       O       i       o       O       i 
+      s       s       P       Y       Y       Y       Y       D 
+      o       O       o       i       i       o       O       i 
+      O       P       o       i       Y       Y       P       O  ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
