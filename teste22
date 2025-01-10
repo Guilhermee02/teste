@@ -84,109 +84,45 @@ zZzzl ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("falling down", "Auto", function()
+Section:NewButton("carol of the blls", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ [8uos] w [uod] t [us] w [0a] [tup]
-6 0 [tua] e [tup] o 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[8uos] w [uod] t [uos] w [0a] [tup]
-6 0 [tua] e [tup] o 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[8uos] w [uod] t [uos] w [0a] [tup]
-6 0 [tua] e [tup] o 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[8uos] w [uod] t [uos] w [0a] [tup]
-6 0 [tua] e [tup] o 0 [wru]
-3 7 [0w] 7
-3 7 [0w]
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[8oh] w [toh] w [uak] [oh] t
-[6IG] 0 [eIG] 0 [tak] [uf]
-3 7 [0w] 7
-3 7 [0w] 7
-[8oh] w [toh] w [uak] [oh] t
-[6IG] 0 [eIG] 0 [tak] [uf]
-3 7 [0w] 7
-3 7 [0w] [sl] w [sl] 0 [sfhl]
-8 w t [wak] u w t [psfj]
-6 [0psfj] e 0 [tak] 0 [afhk] t 0
-3 7 [0w] 7
-3 7 [0w] [sl] w [sl] 0 [7sfhl]
-8 w t [wak] u w t [wIG]
-6 0 [eIG] 0 t [oafh] 0
-3 7 [0w] 7
-3 7 [0w] u I o
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-8 w t u w I 0 [wo]
-[6tua] 0 e 0
-[3rI] 7 [0w] 7
-3 7 [0w] 7
-8 w t u w I 0 [wo]
-[6tua] 0 e 0 6
-[3rI] 7 [0w] 7
-3 7 [0w] [sl] w [sl] 0 [7sfhl]
-8 w t [wak] u w t [wpsfj]
-6 [0psfj] e 0 [tak] 0 [afhk] t 0
-3 7 [0w] 7
-3 7 [0w] [sl] w [sl] 0 [7sfhl]
-8 w t [wak] u w
-[6IG] 0 [eIG] 0 t [oafh] 0
-3 7 [0w] 7
-3 u I o
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [ep] [0wo] 8 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7
-[18tuos] 0 [yd] w [tuos] 0 [8ra] [etup]
-6 0 [ra] e [etup] [wo] 0 [wru]
-3 7 [0w] 7
-3 7 [0w] 7 ]]
+shared.scr = [[ s asp
+s asp
+s asp
+s asp
+[sp] asp
+[so] asp
+[si] asp
+[us] asp
+[si] asp
+[us] asp
+[ys] asp
+[se] asp
+[ys] asp
+[us] asp
+[si] asp
+[us] asp
+[uf] dfs
+[fI] dfs
+[fO] dfs
+[fO] dfs
+[pj] jjhg[tf] ffds[yd] ddfd[se] asp
+[u0]IOpasdfd s
+[u0]IOpasdfd s
+[se] asp
+[ws] asp
+[sq] asp
+[s0] asp
+[s6] asp
+s asp
+s asp
+s asp|||
+[sf]| [da] [sf]| [p6] ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
