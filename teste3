@@ -84,6 +84,44 @@ zZzzl ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("falling down", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ t-y-t-r-e e-r-e-w-[w0]
+r-w
+t-y-t-r-e e-r-e-w-[w0]
+r-w
+t-y-t-r-e e-r-e-w-[w0]
+r-w
+w t-y-t-r-e e-r-e-w-[w0]
+r-w
+
+w-w-r-w-Q-Q-r-0
+r-w
+w-w-r-w-Q-Q-r-0
+r-w
+y-y y-y t-t-r-t-y-y
+r-w
+t-u-u-u-y-W
+W-e-e-r
+e-E-r
+
+t-y-t-r-e e-r-e-w-[w0]
+r-w
+t-y-t-r-e e-r-e-w-[w0]
+r-w
+t-y-t-r-e e-r-e-w-[w0]
+r-w
+w t-y-t-r-e e-r-e-w-[w0]
+r-w ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("aquarela", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
