@@ -92,11 +92,11 @@ shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
 shared.scr = [[ s asp
-s asp
-s asp
-s asp
-[sp] asp
-[so] asp
+sasp
+sasp
+sasp
+[sp]-asp
+[so]-asp
 [si] asp
 [us] asp
 [si] asp
