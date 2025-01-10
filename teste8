@@ -84,47 +84,25 @@ zZzzl ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("viva la vida", "Auto", function()
+Section:NewButton("aa", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ [8uo]-8-8-8 [9yI]-9-9 9-9-
-[wyo]-w-w-w [wuo]-0-0 0-0-
-[8uo]-8-8-8 [9yI]-9-9 9-9-
-[wyo]-w-w-w [wuo]-0-0 0-0-
-[ta]—-s p y—-p-y
-[wp]-p o a-y u
-0 a a a a a a-[ta]—-s p y—-
-p-y [wp]-p-p-a o [0I] u—-
-[ta]—-s p y—-p-y
-[wp]-p o a-y u
-0 a a a a a a-[ta]—-s p y—-
-p-y [wp]-p-p-a o [0I] u—-
-[to]-o-o-o o y o-o o-o-
-[wI]-I-I-I I 0 I-I I-I-
-[ta]—-s p y—-p-y
-[wp]-p o a-y u
-0 a a a a a a-[ta]—-s p y—-
-p-y [wp]-p-p-a o [0I] u—-
-[to]-o-o-o o y o-o o-o-
-[wI]-I-I-I I 0 I-I I-I-
-[tf]-f-f d f d y-p a-s–
-[wd]-d-d a d a 0-u I-o–
-[tf]-f-f d f d y-p a-s–
-[wd]-d-d a d a 0-u I-o–
-[tf]-f-f d f G y G-G—-
-[wd]-d-d-d s [0s] a–a a a a
-t—-s-p y—-p p I
-[wI] I–a-I o 0—-
-[8uo]-8-8-8 [9yI]-
-9-9 9-9-[wyo]-w-w-w [wuo]-
-0-0 0-0-[8uo]-8-8-8 [9yI]-
-9-9 9-9-[wyo]-w-w-w [wuo]-0-0 0-0
-
- ]]
+shared.scr = [[ a h h s h G G G f 
+f f p p a
+a h h h j h G G G f
+f f p o p o I u o
+a h h s h G G G f
+f f p I o
+a h h h j h G G G f
+f f p o p o I u o
+a a h h h j h G G p f G G G h G f
+A a a a a a f a o p a o p a a a a o p a o o u
+a a a a a a h h h j h G G p G G G h G f
+a a a a a a f a a o p a a o p a p a a o o u ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
