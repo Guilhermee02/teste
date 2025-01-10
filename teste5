@@ -91,38 +91,7 @@ shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by 
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ s-asp
-s-asp
-s-asp
-s-asp
-[sp]-asp
-[so]-asp
-[si]-asp
-[us]-asp
-[si]-asp
-[us]-asp
-[ys]-asp
-[se]-asp
-[ys]-asp
-[us]-asp
-[si]-asp
-[us]-asp
-[uf]-dfs
-[fI]-dfs
-[fO]-dfs
-[fO]-dfs
-[pj] jjhg[tf] ffds[yd] ddfd[se] asp
-[u0]IOpasdfd s
-[u0]IOpasdfd s
-[se] asp
-[ws] asp
-[sq] asp
-[s0] asp
-[s6] asp
-s asp
-s asp
-s asp|||
-[sf]| [da] [sf]| [p6] ]]
+shared.scr = [[ o I o u o I o u o I o u o I o u [uo] I o u [yo] I o u [ot] I o u [ro] I o u [uot] I o u [yor] I o u [ote] I o u [or0] I o u [wo8] I o u [or0] I o u [ote] I o u [r0o] I o u [ar0] p a o [T0a] p a o [0ya] [pt0] a [r0o] [y0a] [pt0] a [0or] [0fr] f f d s [ra0] a a p o [tp0] p p a p [r0u] u u u r T Y u I o p [0r] a p o r T Y u I o [0rp] a p o [09o] I o u [8o0] I o u [07o] I o u [06o] I o u [3co] I o u o I o u o I o u o I o u [uo] I o u [oy] I o u [to] I o u [ro] I o u [uto] I o u [ryo] I o u [oteu] I o u [0ro] I o u [w8ou] I o u [0rou] I o u [oteu] I o u [0rou] I o u [ar0] p a o [T0a] p a o [y0a] [pt0] a [r0o] [y0a] [pt0] a [0ro] [0rf] f f d s [r0a] a a p o [t0p] p p a p [r0u] u u u r T Y u I o p [r0] a p o r T Y u I o [p0r] a p o [90o] I o u [80ou] I o u [07ou] I o u [06o] I o u [3oc] I o u o I o u o I o u [ka] [jp] [ka] [fu]  ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
