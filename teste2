@@ -1,4 +1,4 @@
-local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Guilhermee02/teste-2/refs/heads/main/aa2"))()
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
 local Window = Library.CreateLib("AutoPianoV1 Askvoyz", "BloodTheme")
 
 local Tab = Window:NewTab("Auto Piano")
@@ -80,6 +80,10 @@ DdsOD
 zZzzl
 DdsOD
 zZzzl ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("after dark", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
