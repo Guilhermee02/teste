@@ -92,11 +92,11 @@ shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
 shared.scr = [[ [^d] | f | g | h  |
-[5j] | h| h | h | g | f |
-[9j] | g | d | h 
+j | h| h | h | g | f |
+j | g | d | h 
 8 f-s----
 [^d]-f-g-h g 
-[5j]-h h g-f-
+5-h h g-f-
 [29j]-g-d--h 
 8 f-s----
 [9d]-[9z]-[9d] dJ9j-
