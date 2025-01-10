@@ -315,6 +315,61 @@ p [ep]—- [6j] ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Harry Potter", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ a [uf] h G [uf] k [uj] G [uf] h G [DP] g [au] o a
+r [uf] h G [uf] k [dhz] L [igs] h [sfl] k J [TIP] h [uf] o a
+[rh] [uk] [oh] [ak] [rh] [ul] [ok] J G [uh] J P [oa] [uk] o a [rh] [uk] [oh] [ak] [oh] [yoz] L [til] H [sfl] k J [TIP] k [uoa] ]]
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
+Section:NewButton("changes XXXTENT", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[   [ua0]       a       a       a   [aT*]       a       a       a 
+  [aW%]       a       a       a       a       a       a       k 
+      k       Z       L       k       J   [uk0]       k       k 
+      k       L       k       J   [kT*]       k       k       k 
+      L       k       J   [kW%]       k       k       k       L 
+      k       J    [ka]       k       a       k    [ka]       k 
+      k    [aZ]       L       k       J   [uk0]       k       k 
+      k       L       k       J   [kT*]       k       k       k 
+      L       k       J   [kW%]       k       k       k       L 
+      k       J    [ka]       k       a       k    [ka]       k 
+      k    [aZ]       L       k       J    [u0]       k       k 
+      k       L       Z       L       k       k    [T*]       k 
+      k       k       L       Z       L       k       k    [W%] 
+      k       k       k       L       Z       L       k       k 
+      a       a       a       a       k       k       Z       L 
+      k       J   [uk0]       k       k       k       L       k 
+      J   [kT*]       k       k       k       L       k       J 
+  [kW%]       k       k       k       L       k       J       k 
+      k       k       k       k       k       Z       L       k 
+      J   [uk0]       k       k       k       L       k       J 
+  [kT*]       k       k       k       L       k       J   [kW%] 
+      k       k       k       L       k       J       k       k 
+      k       k       k       k       Z       L       k       J 
+   [u0]       k       k       k       L       Z       L       k 
+      k    [T*]       k       k       k       L       Z       L 
+      k       k    [W%]       k       k       k       L       Z 
+      L       k       k       a       a       a       a       a 
+      a       a       a  ]]
+
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("Bad Romance", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
