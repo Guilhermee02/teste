@@ -84,15 +84,49 @@ zZzzl ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("after dark", "Auto", function()
+Section:NewButton("rmntc homicide", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ ( ( y y E ( ( y y E w w y y E w w i i E t ( ( y y E ( ( y y E w w y y E w w i i Y y [@(] ( y y E [@(] ( y y E t [w5] w y y E [w5] w y y E t [@(] ( y y E [@(] ( y y E [w5] w y y E w w i i Y y @ 5 E ^ [t9] ( y 9 ^ 5 @ 5 [^E] [t9] ( [y9] ^ 5 5 ^ [E9] t w E [yw] 9 ^ 5 ^ y 9 [wt] E [yw] 9 ^ @ 5 [^E] [t9] ( y 9 ^ 5 @ 5 [^E] [t9] ( [y9] ^ 5 5 ^ [E9] t w E [yw] 9 ^ 5 ^ E 9 [wY] E y w 9 ^ @ 5 [^E] [t9] ( [y9] ^ 5 @ 5 [^E] [t9] ( [y9] ^05 5 ^ [E9] [wt] E [yw] 9 ^ 5 ^ [y9] [wt] E [yw] 9 ^ @ 5 [^E] [t9] ( [y9] ^ 5 @ 5 [^E] [t9] ( [y9] ^ 5 5 ^ [E9] [wt] E [yw] 9 ^ 5 ^ [E9] [wY] E [yw] 9 ^ [YE@] 5 [^YE@] odP92] ( [odP92] [^P] 5 [YE@] 5 [^YE@] [odP92] ( [odP92] [^P] 5 [o5] ^ [yo95] [wod^P] E [wod^P] [P95] ^ [yo5] ^ [yo95] [wd^P] E [wd^P] [P95] [s^YP] [YE@] 5 [^YE@] [dP92] ( [dP92] [o^P] 5 @ [YE5] [^YE@] [dP92] ( [dP92] [^P] 5 [yo5] ^ [yo95] [wd^P] E [wd^P] [P95] ^ [yo5] ^ [yo95] [wgd^] E [wgd^] [PD95] [id^] [YE@] 5 [^@] [YE] [odP92] ( [92] [odP] [^P] 5 [YE@] 5 [^YE@] [odP92] ( [odP92] [^P] 5 5 o ^ [yo95] [w^] [odP] E [wod^P] [P95] ^ [yo5] ^ [95] [yo] [wd^P] E [wd^P] [95] P [s^YP] [YE@] 5 [^YE@] [dP92] ( [92] [dP] [o^P] 5 @ [YE5] [^YE@] [dP92] ( [dP92] [^P] 5 [yo5] ^ [yo95] [ w^] [dP] E [wd^P] [95] P ^ [yo5] ^ [95] [yo] [wgd^] E [w^] [gd] [PD95] [d^] ]]
-
+shared.scr = [[ sheets (transpose -1) :
+80r-r 80r-r 
+80r-r 80r-e 
+57Q-Q 57Q-0 
+57Q-Q 57Q-[0u] 
+[8p][0a][rp]-r 80r-r 
+80r-rp[8a]0[ra] aae 
+57[QI]-Q 57Q-0 
+57Q-Qu[5p][7a][Qp]-u0 
+[8a]0[rp]-r 80r-r 
+80r-r [8a]0[ra]d de 
+[5I]7Q-Q 57Q-0 
+57Q-Qo[5f]7[Qd] aa0 
+[8a]0[rs]-dr [8a]0[rs]-dr 
+[8a]0[rs]-dr [8a]0r p e 
+[5I][7o][QI]-Q 57Q-0 
+57Q-Q 57[Qra][ra][oh][oh]0[oh]
+[8IG]0r-r 80[ruf]-[ra] 
+80r-ra[8G]0[rh]hhhe 
+57[Qa]-Qp57[Qo]oad0 
+57[QI]-Qo[5a]7[Qs]-d0 
+[8ak]0[rsl]-[dz]r [8ak]0[rsl]-[dz]r 
+[8ak]0[rsl]-[dz]r [8ak]0[rsl]-[dz]eI
+[5I][7o][QI]-Q 57Q-0 
+57Q-Q 57Q-0 
+[8p]0[ra]-r [8p]0r-r 
+[8o]0r-r [8d]0r-e 
+[5I]7Q-Q 57Q-[0u] 
+57Q-Q 57[Qra][ra][uf][uf]0[uf]
+[8ak]0r-r 80[rsl] [dz] r 
+[8ak]0r-ra[8s]0[rs]sss[ea]s
+57[Qa]-Q 5[7a][Qs]sss0s
+57[Qa]p-Q 5[7o][Qo]-sd0 
+[8I]0r-r 80r-r 
+80r-r [80wr] o-p-
+[579QI]oI ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
