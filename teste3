@@ -84,6 +84,139 @@ zZzzl ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
+Section:NewButton("Judas", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ [^d]-f-g-h-
+[5j]-h h g-f-
+[9j]-g-d--h 
+8 f-s----
+[^d]-f-g-h g 
+[5j]-h h g-f-
+[29j]-g-d--h 
+8 f-s----
+[9d]-[9z]-[9d] dJ9j-
+[9d]-[9z]-[9d] dJ9j-
+[9d]-[9z]-[9d] dJ9j-
+[9d]-[9z]-[9d]-J9j-
+2-9-4-5 % 6
+2-9-4-5 % 6
+[2d]-9-4-5 % 6
+[^EP][^EP][^EP][^EP] [^EP] [^EP][^EP][^EP][^EP] [^EP] 
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[^d]^^[^z]-[^d]^^J^j-
+[9g] g [9g] g [qg] gwgWge
+[9g]-9-q-w Wfe
+[9g] g [9g] g [qg] gwgWge
+[9g]-9-q-w Wfe
+[9g] g [9g] g [qg] gwgWge
+[9g]-9-q-w Wfe
+[9g] g [9g] g [qg] gwgWge
+[^g]^^^ ^ 9999 9 
+[^z]-^ j [^l] l [^j]-
+[5z] z 5 j [5l] l [5j] f 
+[29g]g g[29]-[29]-[29g] g 
+[8g]-g8-8-8-
+[^z]-^ j [^l] l [^j]-
+[5z] z 5 j [5l] [gl] [5gj] f 
+[29g]-g[29]-[29]-[29g] g 
+[8g]-g8-8-[8j]-
+[dg^J] J [dg^J]-[dg^J]-[^j] [sfh] 
+[8sf] h [8sf] g [8sfj] h [8sg]-
+[4qsgj] j [4qsgj] j [4qgjl]-[4qz] [sfh] 
+[29sf] [dgj] [29]-[29]-[29dgJ]-
+[dg^J] J [dg^J]-[dg^J]-[^j] [sfh] 
+[8sf] h [8sf] g [8sfj] h [8sg]-
+[4qsgj] j [4qsgj] j [4qgjz]-[4ql] [sfh] 
+[29sf] [pdg] [29]-[29]-[29]-
+[^d]-f-g-h g 
+[5j]-h h g-f-
+[29j]-g-d--h 
+8 f-s----
+[^d]-f-g-h g 
+[5j]-h h g-f-
+[29j]-g-d--h 
+8 f-s----
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[^d]^^[^z]-[^d]^^J^j-
+[9g] g [9g] g [qg] gwgWge
+[9g]-9-q-w Wfe
+[9g] g [9g] g [qg] gwgWge
+[9g]-9-q-w W e
+[9g] g [9g] g [qg] gwgWge
+[9g]-9-q-w W e
+[9g] g [9g] g [qg] gwgWge
+[^g]^^^ ^ 9999 9 
+[^z]-^ j [^l] l [^j]-
+[5z] z 5 j [5l] l [5j] f 
+[29g]g g[29]-[29]-[29g] g 
+[8g]-g8-8-8-
+[^z] z ^ j [^l] l [^j]-
+[5z] z 5 j [5l] [gl] [5gj] f 
+[29g]-g[29]-[29]-[29g] g 
+[8g]-g8-8-[8j]-
+[^J] J [^J]-[^J]-[^j] h 
+8 h [8f] g [8j] h [8g]-
+[4qj] j [4qj] j [4ql]-[4qz] h 
+[29] j [29]-[29]-[29j]-
+[^J] J [^J]-[^J]-[^j] h 
+8 h [8f] g [8j] h [8g]-
+[4qj] j [4qj] j [4qz]-[4ql] h 
+[29] g [29]-[29]-[29]-
+[^d]-f-g-h g 
+[5j]-h h g-f-
+[29j]-g-d--h 
+8 f-s----
+[^d]-f-g-h g 
+[5j]-h h g-f-
+[29j]-g-d--h 
+8 f-s----
+[29]-q2 8 2 6 28-
+[29]-q2 8 2 6 28-
+[29]-q2 8 2 6 28-
+[29]9292q22q22qq[2q]q-
+[29]-q2 8 2 6 28-
+[29]-q2 8 2 6 28-
+[29]-q2 8 2 6 28-
+[29]9292q22q22qq[2q]q-
+[^d]----f g 
+[5f] s----s 
+[9d] d-d-g-j 
+8 h h-j h h-
+[^d]-d-f-g f 
+5 s----s 
+[9d] d-d-g-j 
+8 h h-j h g h 
+2-9-4-5 % 6
+2-[9j]-z-l-
+[dg^J] J [dg^J]-[dg^J]-[^j] [sfh] 
+[8sf] h [8sf] g [8sfj] h [8sg]-
+[4sgj] j [4sgj] j [4gjl]-[4z] [sfh] 
+[29sf] [dgj] [29]-[29]-[29dgJ]-
+[dg^J] J [dg^J]-[dg^J]-[^j] [sfh] 
+[8sf] h [8sf] g [8sfj] h [8sg]-
+[4qsgj] j [4qsgj] j [4qgjz]-[4ql] [sfh] 
+[29sf] [pdg] [29]-[29]-[29]-
+[^d]-f-g-h g 
+[5j]-h h g-f-
+[29j]-g-d--h 
+8 f-s----
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[9d]-[9z]-[qd] d[wJ] [qj] q
+[^d]^^[^z]-[^d]^^J^ ]]
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
+
+end)
 Section:NewButton("rmntc homicide", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
