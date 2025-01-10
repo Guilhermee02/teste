@@ -84,25 +84,14 @@ zZzzl ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("aa", "Auto", function()
+Section:NewButton(".", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[ a h h s h G G G f 
-f f p p a
-a h h h j h G G G f
-f f p o p o I u o
-a h h s h G G G f
-f f p I o
-a h h h j h G G G f
-f f p o p o I u o
-a a h h h j h G G p f G G G h G f
-A a a a a a f a o p a o p a a a a o p a o o u
-a a a a a a h h h j h G G p G G G h G f
-a a a a a a f a a o p a a o p a p a a o o u ]]
+shared.scr = [[  ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
