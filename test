@@ -80,6 +80,116 @@ DdsOD
 zZzzl
 DdsOD
 zZzzl ]]
+Section:NewButton("after dark", "Auto", function()
+    shared.stop = true -- stops the player at any time if true
+-- CONFIG:
+shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
+shared.delay = nil -- delay overides the ftime
+shared.tempo = nil -- tempo overides the delay
+ 
+shared.scr = [[ s-s k-k h-
+s-s k-k h-
+f-f k-k h-
+f-f k-k h j 
+s-s k-k h-
+s-s k-k h-
+f-f k-k h-
+f-f z-z l k 
+[ts] o [as] [sk]-k h-
+[ts] o s k-k h-
+[uf] a f [ahk]-k h-
+[uf] a f [ahk]-k h j 
+[ts] o [as] [sk]-k h-
+[ts] o s k-k h-
+[uf] a f [hk]-k h-
+[uf]-f z-z l k 
+8----w [wo] p-a t w 
+8----w [to] p-a t w 
+0----w [ro] p-a r w 
+0----w [ro] p-a r w 
+[8a]----w [wo] p-a t w 
+8----w [to] p-a t w 
+0----w [ro] p-a r w 0-o s-a--8----w [to] p-a t w 8----w [to] p-a t w 3 7 [0o] [wp]-a t-3 7 [0o] [wp]-a t-[8a]----w [to] p-a t w 8----w [to] p-
+a t w 3 7 [0o] [wp]-a t-[0ru]-o s-a--[1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [3f] 0 
+[wf] [rak] 5 [6ak] [7h] [aj] [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [3f] 0 
+[wf] [rdz] 5 [6dz] [7dl] k [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [3f] 0 
+[wf] [rak] 5 [6ak] [7h] [aj] [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [uaf]-
+f z-z l k 1 8 [8o] 
+p w-a--[wy] o [1u] 8 [8o] 
+p w w a--[ty] u [3a] 7 [0o] [wp]-a--[ry] o [3a] 7 [0o] [wp]-a--
+[ry] o [1ua] 8 [8o] p w w a--
+[ty] u [1ua] 8 [8o] p w w a--
+[ty] u [3a] 7 [0o] [wp]-a--[ry] o [3a] 7 [0o] [ws]-a r-1 8 [8uo] [Ip] 
+w p [oa]--[ty]-o-[1u] 8 [8uo] [Ip] 
+w p [oa]--[ty]-o-[3u] 7 [0uo] [Iwp] p [oa]--[ry] o [3oa] 7 [0uo] [Iwp]-[oa]--
+[ry] o [1u] 8 [8uo] [Ip] w [Iwp] [oa]--
+[ty] o [1ua] 8 [8uo] [Ip] w [Iwp] [oa]--
+[ty] o [30ua]-[uo] [Ip]-[oa]--[30oa]-o s a--[1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [3f] 0 
+[wf] [rak] 5 [6ak] [7h] [aj] [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [5uf]-
+[uf] [dz] 5 [dz] [sl] [ak] [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [3f] 0 
+[wf] [rak] 5 [6ak] [7h] [aj] [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [0uf]-
+[uf] [dz]-[dz] [sl] [ak] [8toh]-
+o [sh]-o [sh]-[8toh]-
+o [sh]-o [sh] o [30ah]-
+o [ah]-o [ah]-[30aG]-
+I [aG]-I [ad]-[8toh]-
+o [sh]-o [sh]-[8toh]-
+o [sh] s o [sh] o [30ah]-
+o [ah]-o [ah]-[30aG]--
+[aG] [ad] I a d [1sh] 8 
+o [8o]-[1sh] [8o] [8o] [sh] w [sdh]-o [os] [od] 
+[3ah] 0 o [0o]-[3aG] [0I] [0a] [aG] u [ad] I 
+a d [1sh] 8 o [8o]-[1sdh] 8 o [8osdh] [sdh] w [sh] o [sdh] o [30afh]-
+o o----[aIG]--
+[Iad]--[1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [3f] 0 
+[wf] [rak] 5 [6ak] [7h] [aj] [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [5uf]-
+[uf] [dz] 5 [dz] [sl] [ak] [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [3f] 0 
+[wf] [rak] 5 [6ak] [7h] [aj] [es] p 
+[ps] [afk] r [tak] [uah] o [1s] 8 
+[8s] [wak] 2 [3ak] [5ah] 7 [3f] 0 
+[wf] [rak] 5 [6ak] [7h] a [30uf]-
+[uf] [dz] 5 [dz] [sl] [ak] [3s]-
+[3s] [9k]-[9k] [7h]-[3s]-
+[3s] [9k]-[9k] [7h]-[uf]-
+[uf] [ak]-[ak] [oh]-[uf]-
+[uf] [ak]-[ak] [oh] [pj] [ts]-
+[ts] [ak]-[ak] [oh]-s-
+s k-k h-f-
+f k-k h-f-
+f z-z l k ]]
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
