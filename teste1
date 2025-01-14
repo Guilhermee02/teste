@@ -84,81 +84,14 @@ zZzzl ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton("idfc", "Auto", function()
+Section:NewButton(".", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[  [6etu]--[8tuo] y--
-[0wuoa]--[QI9yp]--
-[6etu]--[8tuo] y--
-[0wuoa]--[QI9yp]--
-[6etud]aaaap-[8tuod]a[ya]aa-
-[0wuoad]aaaa p [QI9yp]ppppa o
-[6etus]apapapo [8tuo] y-uu
-[0wuoa]--[QI9yp]--
-[6etud]aaaap o[8tuod]a[ya]aa-o
-[0wuoad]aaaap p[QI9yp]ppppa o
-[6etus]apapapo [8tuo] y-sa
-[0wuoa]--[QI9yp]--o
-[6etup]-p-[8tuop] y o-
-[0wuoaf] d f a [QI9yp]--yyy
-[6etus]apapapo [8tuo] y--y
-[0wuoas]apapapo [QI9yp]--o
-[6etup]-p-[8tuop] y o-
-[0wuoa] s d p [QI9yp]--yyy
-[6etus]apapapo [8tuo] y--y
-[0wuoas]apap-[QI9yp]-ppppp
-[6etu]-f-s[8tuoa] ysa-
-[0wuoa]--[QI9yp]-ppppp
-[6etu]-p-[8tuop] y o-
-[0wuoa]--[QI9yp]-ddfff
-[6etu]-k-j[8tuoj] y-h 
-[0wuoa]--[QI9yp]--y
-[6etus]apapapo [8tuo] y-sa
-[0wuoa]--pa[QI9ypd]-f [3df]s
-[6ak] [6o]6[6pf] [6oh]68 [68][68]8 [68f][68]
-[3k] [70][70][3h] [70G][70]9 [69][69][9f] [69f][69f]
-[6k]d[6s]6[6af] [6ph]68ap[68o][68]8 [68f][68]
-[3k] [70][70][3h] [70G][70]9-d [69af][69]
-[6k] 66[6f] [6h]68 [68][68]8 [68uf][68]
-[3dk] [70][70][3ah] [70pG][70]9 [69][69]9 [69uf][69]
-[6dk] [6a]6[6f] [6h]68 [68][68]8 [68uf][68]
-[3dk] [70][70][3ah] [70pG][70]9--
-[6etud]aas[af] f [8tuod]a[yas][af][ah]sh 
-[0wuoad]a[ua][oa]ao[pa]f[QI9yp]p[yp][Ip]p[Ia]p[od]
-[6etus][ua][op]a[pf]ap[of]j[8tuo]o[ys]fhf[uh]u
-[0wuoa]ruoaoaf[QI9yp]eyIpIpd
-[6etud][ea][ea][ea][eaf][ep][ef][eo][8tuod][ta][tyas][tsf][tah][ts][th][to]
-[0uoad][ua][ua][uoa][ua][uop][ua][upf][I9yp][yp][yp][Iyp][yp][Iya][yp][yod]
-[6etus][ua][op]a[pf]ap[of]j[8tuo]o[ys]fhf[sh]a
-[0wuoa]ruoaoaf[QI9yp]eyIpIp[od]
-[6p]-p-[6p]-o-
-[6etuf] d f a [8tuop] y-yyy
-[6etus]apapapo [8tuo] y--y
-[0wuoas]apapapo [QI9yp]--o
-[6etup]-p-[8tuop] y o-
-[0wuoa] s d p [QI9yp]--yyy
-[6etus]apapapo [8tuo] y--y
-[0wuoas]apap-[QI9yp]-ppppp
-[6etu]-f-s[8tuoa] ysa-
-[0wuoa]--[QI9yp]-ppppp
-[6etu]-p-[8tuop] y o-
-[0wuoa]--[QI9yp]-ddfff
-[6etu]-k-j[8tuoj] y-h 
-[0wuoa]--[QI9yp]--y
-[6etus]apapapo [8tuo] y-sa
-[0wuoa]--pa[QI9ypd]-f [3df]s
-[6ak] [6o]6[6pf] [6oh]68 [68][68]8 [68f][68]
-[3k] [70][70][3h] [70G][70]9 [69][69][9f] [69f][69f]
-[6k]d[6s]6[6af] [6ph]68ap[68o][68]8 [68f][68]
-[3k] [70][70][3h] [70G][70]9-d [69af][69]
-[6k] 66[6f] [6h]68 [68][68]8 [68uf][68]
-[3dk] [70][70][3ah] [70pG][70]9 [69][69]9 [69uf][69]
-[6dk] [6a]6[6f] [6h]68 [68][68]8 [68uf][68]
-[3dk] [70][70][3ah] [70pG][70]9 ]]
+shared.scr = [[   ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
