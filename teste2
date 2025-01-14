@@ -84,14 +84,94 @@ zZzzl ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
-Section:NewButton(".", "Auto", function()
+Section:NewButton("idfc", "Auto", function()
     shared.stop = true -- stops the player at any time if true
 -- CONFIG:
 shared.ftime = 2*60 + 00 -- time in seconds for the song to finish (extended by |)
 shared.delay = nil -- delay overides the ftime
 shared.tempo = nil -- tempo overides the delay
  
-shared.scr = [[  ]]
+shared.scr = [[  [eTQ$]  [ueT6]       r [uTO0*] [rYI7(]  [eTQ$]  [ueT6]       r 
+[uTO0*] [rYI7(] [eaTQ$]       O       O       O       O       I 
+[ueaT6]       O    [rO]       O       O [uaTO0*]       O       O 
+      O       O       I [rYI7(]       I       I       I       I 
+      O       u [peTQ$]       O       I       O       I       O 
+      I       u  [ueT6]       r       T       T [uTO0*] [rYI7(] 
+[eaTQ$]       O       O       O       O       I       u [ueaT6] 
+      O    [rO]       O       O       u [uaTO0*]       O       O 
+      O       O       I       I [rYI7(]       I       I       I 
+      I       O       u [peTQ$]       O       I       O       I 
+      O       I       u  [ueT6]       r       p       O [uTO0*] 
+[rYI7(]       u [eTQI$]       I [ueTI6]       r       u [uTSO0*] 
+      a       S       O [rYI7(]       r       r       r [peTQ$] 
+      O       I       O       I       O       I       u  [ueT6] 
+      r       r [upTO0*]       O       I       O       I       O 
+      I       u [rYI7(]       u [eTQI$]       I [ueTI6]       r 
+      u [uTO0*]       p       a       I [rYI7(]       r       r 
+      r [peTQ$]       O       I       O       I       O       I 
+      u  [ueT6]       r       r [upTO0*]       O       I       O 
+      I [rYI7(]       I       I       I       I       I  [eTQ$] 
+      S       p [ueTO6]       r       p       O [uTO0*] [rYI7(] 
+      I       I       I       I       I  [eTQ$]       I [ueTI6] 
+      r       u [uTO0*] [rYI7(]       a       a       S       S 
+      S  [eTQ$]       H       G [ueTG6]       r       f [uTO0*] 
+[rYI7(]       r [peTQ$]       O       I       O       I       O 
+      I       u  [ueT6]       r       p       O [uTO0*]       I 
+      O [raYI7(]       S   [aS!]       p   [OH$]    [u$]       $ 
+  [SI$]   [uf$]       $       6    [6$]    [6$]       6   [S6$] 
+   [6$]    [H!]    [*%]    [*%]    [f!]   [D*%]    [*%]       7 
+   [7$]    [7$]    [S7]   [S7$]   [S7$]    [H$]       a    [p$] 
+      $   [SO$]   [fI$]       $       6       O       I   [u6$] 
+   [6$]       6   [S6$]    [6$]    [H!]    [*%]    [*%]    [f!] 
+  [D*%]    [*%]       7       a  [SO7$]    [7$]    [H$]       $ 
+      $    [S$]    [f$]       $       6    [6$]    [6$]       6 
+ [TS6$]    [6$]   [aH!]    [*%]    [*%]   [fO!]  [ID*%]    [*%] 
+      7    [7$]    [7$]       7  [TS7$]    [7$]   [aH$]    [O$] 
+      $    [S$]    [f$]       $       6    [6$]    [6$]       6 
+ [TS6$]    [6$]   [aH!]    [*%]    [*%]   [fO!]  [ID*%]    [*%] 
+      7 [eaTQ$]       O       O       p    [SO]       S [ueaT6] 
+      O   [rpO]    [SO]    [fO]       p       f [uaTO0*]       O 
+   [TO]    [uO]       O       u    [OI]       S [rYI7(]       I 
+   [rI]    [YI]       I    [YO]       I    [ua] [peTQ$]    [TO] 
+   [uI]       O    [SI]       O       I    [uS]       G  [ueT6] 
+      u    [rp]       S       f       S    [fT]       T [uTO0*] 
+      W       T       u       O       u       O       S [rYI7(] 
+      Q       r       Y       I       Y       I       a [eaTQ$] 
+   [QO]    [QO]    [QO]   [SQO]    [QI]    [SQ]    [uQ] [ueaT6] 
+   [eO]  [rpeO]   [peS]   [feO]    [pe]    [fe]    [ue] [uaTO*] 
+   [TO]    [TO]   [uTO]    [TO]   [uTI]    [TO]   [TSI]  [rYI7] 
+   [rI]    [rI]   [rYI]    [rI]   [rYO]    [rI]   [ura] [peTQ$] 
+   [TO]    [uI]       O    [SI]       O       I    [uS]       G 
+ [ueT6]       u    [rp]       S       f       S    [pf]       O 
+[uTO0*]       W       T       u       O       u       O       S 
+[rYI7(]       Q       r       Y       I       Y       I    [ua] 
+   [I$]       I    [I$]       u [eTSQ$]       a       S       O 
+[ueTI6]       r       r       r       r [peTQ$]       O       I 
+      O       I       O       I       u  [ueT6]       r       r 
+[upTO0*]       O       I       O       I       O       I       u 
+[rYI7(]       u [eTQI$]       I [ueTI6]       r       u [uTO0*] 
+      p       a       I [rYI7(]       r       r       r [peTQ$] 
+      O       I       O       I       O       I       u  [ueT6] 
+      r       r [upTO0*]       O       I       O       I [rYI7(] 
+      I       I       I       I       I  [eTQ$]       S       p 
+[ueTO6]       r       p       O [uTO0*] [rYI7(]       I       I 
+      I       I       I  [eTQ$]       I [ueTI6]       r       u 
+[uTO0*] [rYI7(]       a       a       S       S       S  [eTQ$] 
+      H       G [ueTG6]       r       f [uTO0*] [rYI7(]       r 
+[peTQ$]       O       I       O       I       O       I       u 
+ [ueT6]       r       p       O [uTO0*]       I       O [raYI7(] 
+      S   [aS!]       p   [OH$]    [u$]       $   [SI$]   [uf$] 
+      $       6    [6$]    [6$]       6   [S6$]    [6$]    [H!] 
+   [*%]    [*%]    [f!]   [D*%]    [*%]       7    [7$]    [7$] 
+   [S7]   [S7$]   [S7$]    [H$]       a    [p$]       $   [SO$] 
+  [fI$]       $       6       O       I   [u6$]    [6$]       6 
+  [S6$]    [6$]    [H!]    [*%]    [*%]    [f!]   [D*%]    [*%] 
+      7       a  [SO7$]    [7$]    [H$]       $       $    [S$] 
+   [f$]       $       6    [6$]    [6$]       6  [TS6$]    [6$] 
+  [aH!]    [*%]    [*%]   [fO!]  [ID*%]    [*%]       7    [7$] 
+   [7$]       7  [TS7$]    [7$]   [aH$]    [O$]       $    [S$] 
+   [f$]       $       6    [6$]    [6$]       6  [TS6$]    [6$] 
+  [aH!]    [*%]    [*%]   [fO!]  [ID*%]    [*%]       7 ]]
 loadstring(game:HttpGet("https://raw.githubusercontent.com/JxcExploit/AutoPlayPianoScript/main/NewAutoPlayPiano"))()
 
 end)
